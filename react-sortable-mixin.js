@@ -14,7 +14,7 @@
 	}
 	else {
 		/* jshint sub:true */
-		window['SortableMixin'] = factory(Sortable);
+		root['SortableMixin'] = factory(Sortable);
 	}
 })(function (/** Sortable */Sortable) {
 	'use strict';
